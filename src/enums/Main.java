@@ -15,8 +15,8 @@ public class Main {
                 System.out.println(currency.ordinal() + " " + currency);
             }
             System.out.println("===========");
-            System.out.println("Введите валюту... ");
             try {
+                System.out.println("Введите валюту... ");
                 int num = scanner.nextInt();
                 System.out.println("Сумму... ");
                 double input = scanner.nextDouble();
