@@ -7,7 +7,7 @@ public enum Enums {
     RUB(1.35),
     POUND(103.76);
 
-    final double currency;
+    public final double currency;
 
     Enums(double currency) {
         this.currency = currency;

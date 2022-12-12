@@ -22,22 +22,22 @@ public class Main {
                 double input = scanner.nextDouble();
                 if (num == Enums.DOLLAR.ordinal()) {
                     input *= Enums.DOLLAR.currency;
-                    System.out.println("Результат: " + input + "\n");
+                    System.out.println("KGS: " + input + "\n");
                     break;
                 }
                 if (num == Enums.RUB.ordinal()) {
                     input *= Enums.RUB.currency;
-                    System.out.println("Результат: " + input + "\n");
+                    System.out.println("KGS: " + input + "\n");
                     break;
                 }
                 if (num == Enums.EURO.ordinal()) {
                     input *= Enums.EURO.currency;
-                    System.out.println("Результат: " + input + "\n");
+                    System.out.println("KGS: " + input + "\n");
                     break;
                 }
                 if (num == Enums.POUND.ordinal()) {
                     input *= Enums.POUND.currency;
-                    System.out.println("Результат: " + input + "\n");
+                    System.out.println("KGS: " + input + "\n");
                     break;
                 }
             } catch (Exception exception) {
