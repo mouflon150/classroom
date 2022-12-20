@@ -12,5 +12,4 @@ public enum Enums {
     Enums(double currency) {
         this.currency = currency;
     }
-
 }
