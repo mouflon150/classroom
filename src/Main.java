@@ -19,17 +19,23 @@ public class Main {
         fileReader.close();
     }
 }
+
 class Exceptions {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
+        int i = sc.nextInt();
+        int counter = 0;
 
-        while (true) {
-            int x = Integer.parseInt(scanner.nextLine());
-
-            if (x != 0) {
-                throw new IOException(); // Выбрасывание исключений
+        for (int j = 0; j < 100; j++) {
+            if (j * j == i) {
+                counter++;
             }
+        }
+        if (counter==0){
+            throw new Error();
+        }else {
+            System.out.println(" Everything ok!!! ");
         }
     }
 }
