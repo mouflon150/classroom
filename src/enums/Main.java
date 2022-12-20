@@ -10,7 +10,6 @@ public class Main {
         Enums[] enums = Enums.values();
 
         while (true) {
-
             for (Enums currency : enums) {
                 System.out.println(currency.ordinal() + " " + currency);
             }
