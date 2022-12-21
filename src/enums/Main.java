@@ -13,11 +13,11 @@ public class Main {
             for (Enums currency : enums) {
                 System.out.println(currency.ordinal() + " " + currency);
             }
-            System.out.println("===========");
+            System.out.println("////////////");
             try {
-                System.out.println("Введите валюту... ");
+                System.out.println("Выберите валюту: ");
                 int num = scanner.nextInt();
-                System.out.println("Сумму... ");
+                System.out.println("Введите сумму: ");
                 double input = scanner.nextDouble();
                 if (num == Enums.DOLLAR.ordinal()) {
                     input *= Enums.DOLLAR.currency;
