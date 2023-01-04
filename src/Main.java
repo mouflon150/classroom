@@ -11,7 +11,7 @@ public class Main {
         fileWriter.write("Hello world");
         fileWriter.close();
 
-        FileReader fileReader = new FileReader("text.txt");
+        FileReader fileReader = new FileReader("Hello.txt");
         Scanner scanner = new Scanner(fileReader);
         while (scanner.hasNextLine()) {
             System.out.println(scanner.nextLine());
@@ -32,9 +32,9 @@ class Exceptions {
                 counter++;
             }
         }
-        if (counter==0){
+        if (counter == 0) {
             throw new Error();
-        }else {
+        } else {
             System.out.println(" Everything ok!!! ");
         }
     }
